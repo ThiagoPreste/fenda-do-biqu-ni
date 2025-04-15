@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bob Esponja - Fenda do Biquíni</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('img/fenda-do-biquini.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #FFD700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="p-5 text-center">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src=https://preview.redd.it/ever-wonder-why-bikini-bottom-is-called-bikini-bottom-v0-v8ks07ynk8lc1.jpeg?auto=webp&s=d011d0a626f1e07559fce719560ac165c7df1b56 class="nav-img" loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link text-warning" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5 text-center">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-warning fst-italic fw-bold">Boas-vindas à Fenda do Biquíni!</h1>
+                    <img src="https://pm1.aminoapps.com/6738/182029a27173ca86d56de9380eb638fea0de568bv2_00.jpg" class="mb-3" width="563" height="278" loading="lazy">
+                    <a href="#tropicalia" class="btn btn-warning btn-lg botao-inicio fw-semibold">Explorar o oceano!</a>
+                </div>
+                <img src= alt="Bob Esponja sorrindo e acenando" class="img-fluid img-inicio">
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia text-center" tabindex="0">
+            <div class="container d-flex align-items-center">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_MptwSC3EVqNb5jebLNBNzydfJd7UaAfLnAnGyCUfrJrAAHhkNCu6ShixNLvmZ1dTlhI&usqp=CAU" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é a Fenda do Biquíni?</h2>
+                    <p class="p-2">A Fenda do Biquíni é um lugar incrível onde vivem Bob Esponja, Patrick, Lula Molusco e muitos outros. Aqui você pode conhecer o Siri Cascudo, onde o Sr. Sirigueijo protege a receita secreta do hambúrguer de siri!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0">
+            <h2 class="text-center pt-5 text-warning">Galeria da Fenda</h2>
+            <div class="container p-3 mt-3 fundo-galeria text-center">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://uploads.emaisgoias.com.br/2021/03/patrick-1500.jpg" class="img-fluid rounded-5" loading="lazy" alt="Patrick Estrela sorrindo">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://t2.tudocdn.net/677684?w=1920" class="img-fluid rounded-5" loading="lazy" alt="Lula Molusco com expressão séria">
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://preview.redd.it/adyu6irqmegb1.jpg?auto=webp&s=fe303296831931b1ddf4d12f5ebc5a0f1710f61d" class="img-fluid rounded-5" loading="lazy" alt="Sr. Sirigueijo segurando dinheiro">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://imagens.imirante.com.br/imagens/noticias/2023/04/25/zo78TfBILpAuSCjkWNW8jKN9QFf2PWdDZBXD1Jo7.jpg?w=896&h=448&crop=566%2C+283%2C+0%2C+5.8062827225131&fit=crop&s=e052e8e1c171ffd6acbd6d5cae05e639" class="img-fluid rounded-5" loading="lazy" alt="Sandy Bochechas sorrindo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario text-center">
+                    <h2 class="mb-3 text-warning">Entre em contato com Bob!</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Envie uma mensagem para Bob!"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-warning btn-lg rounded-pill">Enviar mensagem!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-3 fst-italic text-warning">
+        <p>Siga o Bob Esponja nas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido na Fenda do Biquíni. 🍍🏝️</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

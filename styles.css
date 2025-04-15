@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --azul-oceano: #87CEEB;
+    --amarelo-bob: #FFD700;
+    --marrom-casa: #8B4513;
+    --verde-fenda: #32CD32;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Fredoka', sans-serif;
+    background-color: var(--azul-oceano);
+}
+
+header {
+    background-color: var(--amarelo-bob);
+    color: var(--marrom-casa);
+}
+
+.nav-link {
+    color: var(--marrom-casa);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/fenda-do-biquini.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* Ajuste na imagem de Bob Esponja */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+.botao-inicio {
+    background-color: var(--verde-fenda);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--amarelo-bob);
+}
+
+#tropicalia {
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
+    background-size: 180px 180px;
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    color: var(--amarelo-bob);
+}
+
+#galeria {
+    background-color: var(--azul-oceano);
+}
+
+.fundo-galeria {
+    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/fenda-do-biquini.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: var(--amarelo-bob);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--verde-fenda);
+    border: none;
+    font-weight: bold;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link {
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button {
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
